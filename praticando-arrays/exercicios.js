@@ -198,36 +198,3 @@ const maisLucrativo = produtos.reduce((maior, produto) => {
 
 console.log('\nProduto mais lucrativo:')
 console.log(maisLucrativo.nome)
-
-// let totalVendasNotebook = 0
-// let totalVendasMouse = 0
-// let totalVendasTeclado = 0
-// let totalVendasMonitor = 0
-// let maisLucrativo = 0
-
-// produtos.forEach(produto => {
-//     if(produto.nome === 'Notebook') {
-//         totalVendasNotebook += (produto.quantidadeVendida * produto.preco)
-//         if(totalVendasNotebook > maisLucrativo) {
-//             maisLucrativo = totalVendasNotebook
-//         }
-//     } else if (produto.nome === 'Mouse') {
-//         totalVendasMouse += (produto.quantidadeVendida * produto.preco)
-//     } else if (produto.nome === 'Teclado') {
-//         totalVendasTeclado += (produto.quantidadeVendida * produto.preco)
-//     } else {
-//         totalVendasMonitor += (produto.quantidadeVendida * produto.preco)
-//     }
-// })
-
-
-// totalVendasMouse.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
-// totalVendasTeclado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
-// totalVendasMonitor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
-
-// console.log('\nTotal de venda de cada produto:')
-// console.log('Notebook:', totalVendasNotebook.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
-// console.log('Mouse:', totalVendasMouse.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
-// console.log('Teclado:', totalVendasTeclado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
-// console.log('Monitor:', totalVendasMonitor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
-
